@@ -16,5 +16,8 @@ class ZhihuLiveItem(scrapy.Item):
     link = scrapy.Field()
     label = scrapy.Field()
     live_class = scrapy.Field()
+    introduce = scrapy.Field()
+    comm_nums = scrapy.Field()
+    lect_time = scrapy.Field()
 
 
